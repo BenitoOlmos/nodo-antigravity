@@ -7,8 +7,8 @@
 # Variables (Update these with your specific server details)
 SERVER_USER="tu_usuario"
 SERVER_IP="tu_ip_del_servidor"
-SERVER_DIR="/usr/share/nginx/html" # Nginx default directory or your custom one
-NGINX_CONF_DIR="/etc/nginx/conf.d"
+SERVER_DIR="/var/www/webnodo/dist" # Updated to match your Nginx root
+NGINX_CONF_DIR="/etc/nginx/sites-available"
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -49,7 +49,7 @@ echo -e "${YELLOW}Uploading files to server at $SERVER_USER@$SERVER_IP...${NC}"
 echo -e "${GREEN}Deployment ready!${NC}"
 echo "------------------------------------------------------------------"
 echo "If you are using MobaXterm SFTP (Drag and Drop):"
-echo "1. Upload the contents of the 'dist' folder to your server's public html directory (e.g. /usr/share/nginx/html)."
-echo "2. Upload the 'nginx/nginx.conf' to your Nginx configuration directory (e.g. /etc/nginx/conf.d/)."
+echo "1. Upload the contents of the 'dist' folder to your server's public html directory (e.g. /var/www/webnodo/dist)."
+echo "2. Upload the 'nginx/nginx.conf' to your Nginx configuration directory (e.g. /etc/nginx/sites-available/nodoesit.org)."
 echo "3. Restart Nginx on your server: sudo systemctl restart nginx"
 echo "------------------------------------------------------------------"
