@@ -20,6 +20,7 @@ export function Header() {
             <a href="#about" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-blue)] transition-colors">Nosotros</a>
             <a href="#objectives" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-red)] transition-colors">Objetivos</a>
             <a href="#axes" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-magenta)] transition-colors">Ejes</a>
+            <a href="#integrantes" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-cyan)] transition-colors">Integrantes</a>
             <a href="#institutions" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-green)] transition-colors">Instituciones</a>
           </nav>
           <button className="md:hidden p-2 text-gray-600">

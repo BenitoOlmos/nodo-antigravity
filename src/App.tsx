@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Objectives } from './components/Objectives';
 import { WorkAxes } from './components/WorkAxes';
+import { Members } from './components/Members';
 import { Institutions } from './components/Institutions';
 import { Footer } from './components/Footer';
 
@@ -16,6 +17,7 @@ export default function App() {
         <About />
         <Objectives />
         <WorkAxes />
+        <Members />
         <Institutions />
       </main>
       <Footer />
