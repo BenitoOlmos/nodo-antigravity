@@ -22,6 +22,7 @@ export function Header() {
             <Link to="/#objectives" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-red)] transition-colors">Objetivos</Link>
             <Link to="/#axes" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-magenta)] transition-colors">Ejes</Link>
             <Link to="/integrantes" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-cyan)] transition-colors">Integrantes</Link>
+            <Link to="/noticias" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-blue)] transition-colors">Noticias</Link>
             <Link to="/#institutions" className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-[var(--color-esit-green)] transition-colors">Instituciones</Link>
           </nav>
           <button className="md:hidden p-2 text-gray-600">

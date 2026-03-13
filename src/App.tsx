@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Members } from './components/Members';
 import { Home } from './pages/Home';
+import { News } from './pages/News';
 import { ScrollToTop } from './components/ScrollToTop';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/integrantes" element={<Members />} />
+            <Route path="/noticias" element={<News />} />
           </Routes>
         </main>
         <Footer />

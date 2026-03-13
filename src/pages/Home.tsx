@@ -4,6 +4,7 @@ import { About } from '../components/About';
 import { Objectives } from '../components/Objectives';
 import { WorkAxes } from '../components/WorkAxes';
 import { Institutions } from '../components/Institutions';
+import { NewsPreview } from '../components/NewsPreview';
 import { Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ export function Home() {
   return (
     <>
       <Hero />
+      <NewsPreview />
       <About />
       <Objectives />
       <WorkAxes />
