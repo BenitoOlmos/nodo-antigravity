@@ -93,6 +93,20 @@ export function News() {
             <p className="font-bold text-[var(--color-esit-magenta)] mt-8">
               Esta necesidad de investigación cruzada se vuelve aún más urgente frente a los fenómenos divergentes y emergentes del siglo XXI.
             </p>
+
+            <div className="mt-12 bg-gray-100/50 border border-gray-100 rounded-2xl p-8 text-center">
+              <p className="text-gray-800 font-medium mb-6 text-lg">
+                Para mayores detalles, inscripciones e información oficial, te invitamos a visitar el sitio del evento:
+              </p>
+              <a 
+                href="https://eventos.ei.udelar.edu.uy/event/21/overview" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-[var(--color-esit-blue)] text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-800 transition-all shadow-md hover:shadow-lg hover:-translate-y-1"
+              >
+                Ver Sitio Oficial del Congreso
+              </a>
+            </div>
             
           </div>
         </article>
