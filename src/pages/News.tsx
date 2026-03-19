@@ -39,7 +39,7 @@ export function News() {
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 -mt-10 relative z-30">
         
-        <Link to="/" className="inline-flex items-center gap-2 text-white hover:text-gray-200 transition-colors mb-6 absolute -top-16 left-4 lg:left-0 font-medium">
+        <Link to="/" className="inline-flex items-center gap-2 text-white hover:text-gray-200 transition-colors mb-6 font-medium">
           <ArrowLeft size={20} />
           Volver al Inicio
         </Link>

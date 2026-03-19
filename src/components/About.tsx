@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Users, Globe2, Lightbulb } from 'lucide-react';
+import { members } from '../data/membersData';
 
 export function About() {
   return (
-    <section id="about" className="scroll-mt-20 py-24 bg-white relative">
+    <section id="about" className="scroll-mt-20 py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -29,7 +30,7 @@ export function About() {
                 <div className="w-12 h-12 rounded-full bg-[var(--color-esit-blue)]/10 flex items-center justify-center text-[var(--color-esit-blue)] mb-4">
                   <Users size={24} />
                 </div>
-                <h4 className="font-bold text-3xl text-gray-900 mb-1">42</h4>
+                <h4 className="font-bold text-3xl text-gray-900 mb-1">{members.length}</h4>
                 <p className="text-sm text-gray-600 uppercase tracking-wider font-bold">Integrantes</p>
               </div>
               <div className="flex flex-col items-start">

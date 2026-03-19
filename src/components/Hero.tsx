@@ -23,8 +23,8 @@ export function Hero() {
           <h2 className="text-[var(--color-esit-blue)] font-bold tracking-widest uppercase text-sm md:text-base mb-4">
             Nodo Latinoamericano
           </h2>
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6 max-w-5xl mx-auto">
-            ESTUDIOS SOBRE <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-esit-magenta)] to-[var(--color-esit-violet)]">INTERDISCIPLINA</span> Y <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-esit-red)] to-[var(--color-esit-yellow)]">TRANSDISCIPLINA</span>
+          <h1 className="font-display text-3xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6 max-w-5xl mx-auto break-words hyphens-auto">
+            ESTUDIOS SOBRE <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-esit-magenta)] to-[var(--color-esit-violet)] break-words">INTERDISCIPLINA</span> Y <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-esit-red)] to-[var(--color-esit-yellow)] break-words">TRANSDISCIPLINA</span>
           </h1>
           <p className="mt-6 text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto font-light">
             Promoviendo y fortaleciendo el trabajo colaborativo en el cruce de fronteras entre saberes y disciplinas desde 2018.
