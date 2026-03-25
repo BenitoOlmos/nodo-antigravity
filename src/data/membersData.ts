@@ -8,6 +8,7 @@ export const members = [
   { name: "Bianca", surname: "Vienni-Baptista", country: "Suiza", institution: "Swiss Federal Institute of Technology (ETH Zurich)", link: "https://tdlab.usys.ethz.ch/team/person-detail.bianca-vienni.html" },
   { name: "Cecilia", surname: "Marrero", country: "Uruguay", institution: "Universidad de la República, Uruguay", link: "https://fic.edu.uy/docente/cecilia-marrero" },
   { name: "Cecilia", surname: "Hidalgo", country: "Argentina", institution: "Universidad de Buenos Aires", link: "https://antropologia.institutos.filo.uba.ar/integrante/hidalgo-cecilia" },
+  { name: "Claudio", surname: "Reyes Vera", country: "Chile", institution: "Colectivo 360º", link: "" },
   { name: "Damián", surname: "Berridy", country: "Argentina", institution: "Universidad Nacional de Cuyo", link: "https://sites.google.com/view/grupodeestudiosinterdisciplina/equipo/dami%C3%A1n-berridy" },
   { name: "Daniel", surname: "Marín Vanegas", country: "Colombia", institution: "Universidad Nacional de Colombia", link: "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000086030" },
   { name: "Diana", surname: "Soler Osuna", country: "Colombia", institution: "Universidad Externado de Colombia", link: "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001506219" },
@@ -56,7 +57,6 @@ export const members = [
   { name: "Rebeca", surname: "Silva Roquefort", country: "Chile", institution: "Universidad de Chile", link: "https://orcid.org/0000-0002-1733-4168" },
   { name: "Silvia", surname: "Argüello Vargas", country: "Costa Rica", institution: "Universidad Nacional de Costa Rica (UNA)", link: "https://orcid.org/0000-0002-3832-1323" },
   { name: "Viviana", surname: "Salgado Silva", country: "Costa Rica", institution: "Universidad Nacional de Costa Rica (UNA)", link: "https://www.rectoria-adjunta.una.ac.cr/index.php/personalra/67-m-sc-viviana-salgado-silva" },
-  { name: "Gilda", surname: "Wolf Amaya", country: "Colombia", institution: "Universidad Nacional de Colombia", link: "https://scholar.google.com/citations?user=yKo3nT4AAAAJ&hl=es" },
   { name: "Luciano", surname: "Villalba", country: "Argentina", institution: "Universidad Nacional del Centro de la Provincia de Buenos Aires", link: "https://www.researchgate.net/profile/Luciano-Villalba" },
   { name: "Pía", surname: "Torres", country: "Chile", institution: "Universidad de Chile", link: "https://orcid.org/0009-0004-3777-949X" }
 ].sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically by Name, as requested.
